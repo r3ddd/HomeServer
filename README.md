@@ -27,10 +27,11 @@ These scripts are duplicates of [Servers@Home](https://github.com/imjustleaving/
      ```
   9. Enter name of pool when prompted.
   10. Enter "no" when prompted.
-  11. Enter 
+  11. Enter the following command (P00L being the name of your pool)
       ```
-      cd /mnt/P00L/docker  #Change P00L by the name of your pool
+      cd /mnt/P00L/docker
       ```
+      Change P00L by the name of your pool
   12. Enter
       ```
       cat docker-compose.yml
