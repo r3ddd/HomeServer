@@ -137,7 +137,7 @@ services:
     networks:
       - media_network
     volumes:
-      - /mnt/$POOLNAME/configs/ridarr:/config
+      - /mnt/$POOLNAME/configs/lidarr:/config
       - /mnt/$POOLNAME/media:/media
 
   radarr:
