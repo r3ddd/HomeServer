@@ -9,9 +9,9 @@ These scripts are duplicates of [Servers@Home](https://github.com/imjustleaving/
   2. Apps -> Configuration -> Choose Pool
   3. System -> Shell
   4. Enter the following command
- ```
+     ```
      sudo su
- ```
+     ```
   5. Enter password as prompted.
   6. Enter
      ```
