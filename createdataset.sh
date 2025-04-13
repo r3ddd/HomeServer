@@ -1,7 +1,9 @@
 read -p "Enter the pool name: " POOLNAME
 
+CONFIG_DATASETS=("navidrome")
+
 create_dataset() {
-    local dataset_name="$1"
+    local dataset_name="($1)"
     local dataset_path="$POOLNAME/$dataset_name"
     local mountpoint="/mnt/$dataset_path"
 
