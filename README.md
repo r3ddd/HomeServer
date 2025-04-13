@@ -27,9 +27,9 @@ These scripts are duplicates of [Servers@Home](https://github.com/imjustleaving/
      ```
   9. Enter name of pool when prompted.
   10. Enter "no" when prompted.
-  11. Enter **Change P00L by the name of your pool**
+  11. Enter 
       ```
-      cd /mnt/P00L/docker
+      cd /mnt/P00L/docker  #Change P00L by the name of your pool
       ```
   12. Enter
       ```
