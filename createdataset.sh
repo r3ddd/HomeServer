@@ -1,6 +1,8 @@
+read -p "Enter the pool name: " POOLNAME
+
 create_dataset() {
     local dataset_name="$1"
-    local dataset_path="POOLNAME/$dataset_name"
+    local dataset_path="$POOLNAME/$dataset_name"
     local mountpoint="/mnt/$dataset_path"
 
     if ! zfs list "$dataset_path" >/dev/null 2>&1; then
