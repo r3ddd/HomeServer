@@ -8,7 +8,7 @@ PRIVATE_IP=$(hostname -I | awk '{print $1}')
 CIDR_NETWORK="${PRIVATE_IP%.*}.0/24"
 
 # Define datasets and directories
-CONFIG_DATASETS=("prowlarr" "radarr" "sonarr" "readarr" "jellyseerr" "recyclarr" "profilarr" "bazarr" "tdarr" "jellyfin" "qbittorrent" "dozzle" "lidarr" "profilarr")
+CONFIG_DATASETS=("prowlarr" "radarr" "sonarr" "readarr" "jellyseerr" "recyclarr" "profilarr" "bazarr" "tdarr" "jellyfin" "qbittorrent" "dozzle" "lidarr")
 TDARR_SUBDIRS=("server" "logs" "transcode_cache")
 MEDIA_SUBDIRECTORIES=("movies" "tv" "music" "books" "downloads")
 DOCKER_COMPOSE_PATH="/mnt/$POOLNAME/docker"
@@ -198,18 +198,6 @@ services:
     ports:
       - 8191:8191
     restart: unless-stopped
-
-  profilarr:
-    image: santiagosayshey/profilarr:latest
-    user: 6868:6868
-    container_name: profilarr
-    restart: unless-stopped
-    environment:
-      - TZ=Amercia/New_York
-    networks:
-      - media_network
-    volumes:
-      - /mnt/$POOLNAME/configs/profilarr:/config
 
   recyclarr:
     image: ghcr.io/recyclarr/recyclarr
