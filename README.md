@@ -4,7 +4,7 @@
 
 These scripts are duplicates of [Servers@Home](https://github.com/imjustleaving/ServersatHome)'s [*truenas-file-structure.sh*](https://github.com/imjustleaving/ServersatHome/blob/main/truenas-file-structure.sh) script with the addition of Lidarr, Readarr, and needed datasets and directories. Took out what I didn't need.
 
-### TrueNas Installation Guide
+### onesteparr.sh Easy walkthrough
   1. Create Pool
   2. Apps -> Configuration -> Choose Pool
   3. System -> Shell
