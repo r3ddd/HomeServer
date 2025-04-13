@@ -1,6 +1,6 @@
 # **Always inspect code before using it**
 
-This script is an exact duplicate of [Servers@Home](https://github.com/imjustleaving/ServersatHome)'s [*truenas-file-structure.sh*](https://github.com/imjustleaving/ServersatHome/blob/main/truenas-file-structure.sh) script with the addition of Lidarr, Readarr, and needed datasets and directories. Nothing more, nothing less.
+These scripts are duplicates of [Servers@Home](https://github.com/imjustleaving/ServersatHome)'s [*truenas-file-structure.sh*](https://github.com/imjustleaving/ServersatHome/blob/main/truenas-file-structure.sh) script with the addition of Lidarr, Readarr, and needed datasets and directories. Took out what I didn't need.
 
 ### TrueNas Installation Guide
   1. Create Pool
